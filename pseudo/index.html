@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover{
+            color: aquamarine;
+            font-size: 30px;
+        }
+        .middle:focus{
+            background-color: aqua;
+      
+      font-size: 20px;
+      font-weight: 600;
+        }
+
+        li:first-child{
+            color: brown;
+        }
+        li:last-child{
+            color:blue
+        }
+        li:nth-child(2n){
+            color: aqua;
+        }
+        h3::before{
+            content: "hello";
+        }
+        h3::after{
+            content: " galo";
+        }
+        .Swimming div{
+            border: 1px dashed palevioletred;
+            width: 200px;
+          
+        }
+        .Swimming img{
+            height: 50px;
+            width: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is Normal</h1>
+    <input type="text">
+    <input type="text" class="middle">
+    <input type="text">
+
+    <h3>middle size header -1</h3>
+    <h3 class="special">middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3 class="special">middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3 class="special">middle size header -6</h3>
+
+    <ul>
+        <li>Alia</li>
+        <li> Dalia</li>
+        <li>Kaliya</li>
+        <li>malia</li>
+        <li>falia</li>
+        <li>amlia</li>
+    </ul>
+
+    <section>
+        <h1>This is my header</h1>
+        <h1>I am Learning position</h1>
+        <h2>I have a higher position</h2>
+    </section>
+    <section class="Swimming">
+        <div><img src="../pseudo/icons8-css-48.png" alt=""></div>
+        <div><img src="../pseudo/icons8-html-48.png" alt=""></div>
+        <div><img src="../pseudo/js.png" alt=""></div>
+
+
+    </section>
+</body>
+</html>
